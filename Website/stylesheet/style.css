@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+/* .section {
+    font-size: 30px;
+    text-align: center;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header{
+  background-color: #6eadab;
+  border-radius: 10px;
+  width: 100%;
+
+}
+
+.logo {
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 450px;
+}
+
+.conSection2{
+margin-top: 50px;
+margin: auto;
+
+}
+
+
+.logo1 {
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 550px;
+  overflow: hidden;
+}
+
+h1, p, h2, h3,
+.navbar, #submit  {
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+.EnterDaily{
+  margin-left: 20px;
+}
+
+.pWel, h5, .chooseLvl, .cat{
+  text-align: center;
+}
+
+.cat, .lvl{
+color: #333;
+}
+
+.WelPage {
+  font-family: 'Paytone One', serif;
+  font-size: 45px;
+  text-align: center;
+
+}
+
+p,li,.bi {
+  font-size: 18px;
+}
+
+.objects {
+  width: 50%;
+}
+
+.bicycle, .swimming{
+  opacity: 0.3;
+}
+
+.navbar-right {
+  float: right;
+
+}
+
+.navbar {
+  overflow: hidden;
+  position: absolute; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.round {
+  border-radius: 50%;
+  
+}
+
+.s3{
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.days{
+  font-family: 'Paytone One', serif;
+  font-size: 20px;
+  margin-left: 90px;
+}
+
+.form-control{
+width: 40%;
+margin-left: 40px;
+}
+
+#submit{
+  margin-left: 30%;
+
+}
+
+#back{
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+.logo3{
+  margin-left: 40%;
+  margin-bottom:10px;
+}
+
+.displayBtn{
+margin-left: 15%;
+}
+
+.calc{
+  justify-content: center;
+}
